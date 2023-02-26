@@ -1,0 +1,100 @@
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-btw {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-end {
+  justify-content: end;
+}
+.align-end{
+  align-items: end;
+}
+.align-center {
+  align-items: center;
+}
+.flex-start {
+  align-items: flex-start;
+}
+.text-center {
+  text-align: center;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.gap-25 {
+  gap: 25px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.console-log{
+  border: 2px solid red;
+}
+.border-radius{
+  border-radius: 4px;
+}
+.cs-main {
+  min-height: 719px;
+  background-color: transparent;
+  background-image: url(https://yata-apix-4a5e8785-5884-40db-964c-cd83ed1f0bcc.s3-object.locaweb.com.br/d930d1a2e8504e2f89629b05d58b56b3.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-attachment:fixed;
+}
+
+.cs-section-insta {
+    min-height: 500px;
+    background-image: url(/src/img/instagram-better.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+}
+.cs-section-man{
+    min-height: 500px;
+    background-color: transparent;
+    background-image: url(/src/img/man-equip.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.cs-main-about{
+  min-height: 500px;
+  background-color: var(--color-grey-2);
+  background-image: url(/src/img/instagram.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.cs-div-about{
+  min-height: 500px;
+  background-color: chocolate;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cs-footer-man{
+  min-height: 500px;
+  background-color: transparent;
+  background-image: url(/src/img/forro\ 2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

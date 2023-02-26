@@ -1,0 +1,46 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: chocolate;
+}
+.img-logo-better{
+  width: 30vw;
+  border-radius: 8px;
+  margin-left: 33.5vw;
+}
+.offcanvas{
+  background-color: chocolate;
+  color: var(--color-grey-5);
+}
+.div-container-btw{
+  width: 100%;
+}
+.navbar-toggler{
+  position: fixed;
+  right: 2vw;
+  z-index: 1;
+}
+.nav-item{
+  width: 100%;
+  transition-duration: 0.2s;
+}
+.nav-item:hover{
+  background-color: var(--color-grey-2);
+  transition-duration: 0.2s;
+}
+.nav-item a{
+  padding: 10px;
+}
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+  width: 300px;
+}
+.black-refrige{
+  width: 340px;
+}
+.img-fluid{
+  width: 80vw;
+}
+.modify-img{
+  flex-basis: 1366px;
+  overflow: hidden;
+}
